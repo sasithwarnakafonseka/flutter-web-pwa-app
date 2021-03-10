@@ -10,7 +10,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Flutter Demo',
+      title: 'Study Reserve',
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
@@ -37,7 +37,7 @@ class _MyHomePageState extends State<MyHomePage> {
           Align(
             alignment: Alignment.topCenter,
             child: WebviewScaffold(
-                url: 'https://studyreserve.com/',
+                url: 'https://studyreserve.com/login/',
                 clearCache: true,
                 appCacheEnabled: true,
             ),
